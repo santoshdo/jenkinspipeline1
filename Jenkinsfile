@@ -12,5 +12,10 @@ pipeline{
 		sh "echo 'first Test from git'"
 			}
 		}
+		stage('Deploy') {
+		  steps {
+		sh "echo 'first Deploy from git'"
+			}
+		}
 }
 }
