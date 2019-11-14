@@ -9,7 +9,7 @@ pipeline{
 		}
 		stage('Test') {
 		  steps {
-		sh "echo 'first Test from git'"
+		sh "echo 'first Test from git update for hook'"
 			}
 		}
 		stage('Deploy') {
