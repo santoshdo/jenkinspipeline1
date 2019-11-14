@@ -4,7 +4,12 @@ pipeline{
 	stages {
 		stage('Build') {
 		  steps {
-		sh "echo 'first from git'"
+		sh "echo 'first Build from git'"
+			}
+		}
+		stage('Test') {
+		  steps {
+		sh "echo 'first Test from git'"
 			}
 		}
 }
